@@ -13,15 +13,21 @@ function App() {
         textAlign: "center",
         backgroundColor: "#f0f0f0",
         width: "100%",
+        color: "#1f2937",
       }}
     >
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "10px" }}>Welcome </h1>
+      <h1
+        style={{ fontSize: "2.5rem", marginBottom: "10px", color: "#111827" }}
+      >
+        Welcome
+      </h1>
       <p
         style={{
           fontSize: "1.2rem",
           maxWidth: "600px",
           marginBottom: "30px",
           lineHeight: "1.6",
+          color: "#374151",
         }}
       >
         This is a demo application where you can explore the{" "}
@@ -54,8 +60,8 @@ function App() {
           </button>
         </Link>
 
-        <a
-          href="https://react.dev"
+        <Link
+          to="https://react.dev"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "none" }}
@@ -73,7 +79,7 @@ function App() {
           >
             Learn React
           </button>
-        </a>
+        </Link>
       </div>
 
       <footer style={{ marginTop: "50px", fontSize: "0.9rem", color: "#555" }}>

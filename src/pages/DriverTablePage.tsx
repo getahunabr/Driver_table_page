@@ -60,6 +60,7 @@ const DriverTablePage = () => {
         background: "linear-gradient(to right, #f3f4f6, #e5e7eb)",
         minHeight: "100dvh",
         width: "100%",
+        color: "#1f2937",
       }}
     >
       <div
@@ -69,7 +70,9 @@ const DriverTablePage = () => {
           margin: "0 auto",
         }}
       >
-        <h1 style={{ marginBottom: "20px" }}>{t("pageTitle")}</h1>
+        <h1 style={{ marginBottom: "20px", color: "#111827" }}>
+          {t("pageTitle")}
+        </h1>
         <LanguageSwitcher />
         {/* Export Button */}
         <div
