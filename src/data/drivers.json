@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "status": "active",
+    "location": "New York ",
+    "lastActive": "2024-06-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Bob Smith",
+    "status": "inactive",
+    "location": "Los Angeles",
+    "lastActive": "2024-05-20T14:45:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Charlie Davis",
+    "status": "active",
+    "location": "Chicago",
+    "lastActive": "2024-06-14T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Diana Ross",
+    "status": "inactive",
+    "location": "Houston",
+    "lastActive": "2024-04-10T11:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Ethan Brown",
+    "status": "active",
+    "location": "San Francisco",
+    "lastActive": "2024-06-18T16:20:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Fiona Wilson",
+    "status": "active",
+    "location": "Seattle",
+    "lastActive": "2024-06-12T08:05:00Z"
+  },
+  {
+    "id": "7",
+    "name": "George Miller",
+    "status": "inactive",
+    "location": "Miami",
+    "lastActive": "2024-05-05T13:40:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Hannah Lee",
+    "status": "active",
+    "location": "Boston",
+    "lastActive": "2024-06-17T19:25:00Z"
+  },
+  {
+    "id": "9",
+    "name": "Ian Thompson",
+    "status": "inactive",
+    "location": "Denver",
+    "lastActive": "2024-04-22T07:50:00Z"
+  },
+  {
+    "id": "10",
+    "name": "Julia Martinez",
+    "status": "active",
+    "location": "Atlanta",
+    "lastActive": "2024-06-16T15:10:00Z"
+  }
+]
