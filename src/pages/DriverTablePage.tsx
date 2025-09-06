@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+// @ts-ignore
+
+import { useEffect, useState } from "react";
 import { fetchDrivers } from "../utils/fetchData";
 import { MaterialReactTable } from "material-react-table";
-import { type MRT_ColumnDef } from "material-react-table";
 import { type Driver } from "../utils/fetchData";
 import Filter from "../components/Filter";
 import BackButton from "../components/BackButton";

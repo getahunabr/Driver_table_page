@@ -1,3 +1,4 @@
+// @ts-ignore
 import axios from "axios";
 import { dataSourceConfig } from "../config/datasourceConfig";
 import mockData from "../data/drivers.json";
