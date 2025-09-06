@@ -58,7 +58,7 @@ const DriverTablePage = () => {
     <div
       style={{
         background: "linear-gradient(to right, #f3f4f6, #e5e7eb)",
-        minHeight: "100vh",
+        minHeight: "100dvh",
         width: "100%",
       }}
     >
