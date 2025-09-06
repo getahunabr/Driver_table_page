@@ -13,6 +13,7 @@ export interface Driver {
 
 export const fetchDrivers = async (): Promise<Driver[]> => {
   if (dataSourceConfig === "mock") {
+    // @ts-ignore
     return mockData;
   } else {
     try {

@@ -71,7 +71,6 @@ const DriverTablePage = () => {
       >
         <h1 style={{ marginBottom: "20px" }}>{t("pageTitle")}</h1>
         <LanguageSwitcher />
-
         {/* Export Button */}
         <div
           style={{
@@ -106,6 +105,7 @@ const DriverTablePage = () => {
             muiTablePaperProps={{ sx: { width: "100%" } }}
           />
         </div>
+        {/* @ts-ignore */}
         <BackButton label={t("back")} style={{ marginTop: "20px" }} />
       </div>
     </div>
