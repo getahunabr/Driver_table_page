@@ -39,12 +39,16 @@ const DriverTablePage = () => {
     }
     if (filters.lastActive) {
       const filterDate = new Date(filters.lastActive);
+      filterDate.setHours(0, 0, 0, 0);
 
       filtered = filtered.filter((driver) => {
         const driverDate = new Date(driver.lastActive.replace(" ", "T"));
-        return driverDate >= filterDate;
+        driverDate.setHours(0, 0, 0, 0);
+
+        return driverDate.getTime() === filterDate.getTime();
       });
     }
+
     setFilterDrivers(filtered);
   };
 
