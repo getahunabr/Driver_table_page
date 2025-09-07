@@ -39,13 +39,14 @@ const DriverTablePage = () => {
     }
     if (filters.lastActive) {
       const filterDate = new Date(filters.lastActive);
-      filterDate.setHours(0, 0, 0, 0);
+      filterDate.setHours(0, 0, 0, 0); //  to ignore time
 
       filtered = filtered.filter((driver) => {
         const driverDate = new Date(driver.lastActive.replace(" ", "T"));
-        driverDate.setHours(0, 0, 0, 0);
+        driverDate.setHours(0, 0, 0, 0); // normalize to ignore time
 
-        return driverDate.getTime() === filterDate.getTime();
+        // include all dates from the selected day onward
+        return driverDate >= filterDate;
       });
     }
 
